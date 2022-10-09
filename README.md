@@ -1,11 +1,11 @@
-# ESLint Javascript-Vue Configuration
+# ESLint Javascript Configuration
 
 ⚠️ This repository is not yet production ready. Still work in progress
 
-Personal ESLint configuration for Javascript and Vue projects.
+Personal ESLint configuration for Javascript projects.
 
 * ✔ Extends [Airbnb Style]
-* ✔ Provide additional rules for [Vue]
+* ✔ Provide additional rules for [eslint-plugin-import]
 * ✔ Provide personally preferred rules.
 
 ## Table of Contents
@@ -46,5 +46,5 @@ module.exports = {
 
 [Airbnb Style]: https://www.npmjs.com/package/eslint-config-airbnb-base
 
-[Vue]: https://eslint.vuejs.org/
+[eslint-plugin-import]: https://github.com/import-js/eslint-plugin-import
 

@@ -1,4 +1,20 @@
+const base = require("./lib/base.js");
+const imports = require("./lib/imports.js");
+
 module.exports = {
-    extends: ["plugin:vue/vue3-essential", "airbnb-base"],
-    rules: {},
+    env: {
+        browser: true,
+        node: true,
+        commonjs: true,
+        es2021: true
+    },
+    parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "module"
+    },
+    extends: ["airbnb-base"],
+    rules: {
+        ...base,
+        ...imports
+    }
 };
