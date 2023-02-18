@@ -1,6 +1,6 @@
 {
     "name": "@metainy/eslint-config-js",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "author": "Mahmoud El Metainy",
     "description": "Personal ESLint configuration for Javascript projects",
     "license": "MIT",
