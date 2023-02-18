@@ -1,0 +1,37 @@
+{
+    "name": "@metainy/eslint-config-js",
+    "version": "0.1.0",
+    "author": "Mahmoud El Metainy",
+    "description": "Personal ESLint configuration for Javascript projects",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "lib/*",
+        "index.js"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "gl",
+        "eslint",
+        "eslintconfig",
+        "javascript",
+        "airbnb"
+    ],
+    "homepage": "https://github.com/Metainy/eslint-config-js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Metainy/eslint-config-js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Metainy/eslint-config-js/issues"
+    },
+    "dependencies": {
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.27.5"
+    },
+    "peerDependencies": {
+        "eslint": "^7.2.0 || ^8.2.0"
+    }
+}
